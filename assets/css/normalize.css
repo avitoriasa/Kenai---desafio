@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Open+Sans&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/img/image.png);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: Open Sans;
+    font-style: normal;
+    color: #F9F9F9;
+}
+
+ul {
+    list-style: none;
+}
+
+#logo-gradiente {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    background: -webkit-linear-gradient(141deg, rgba(248, 236, 52, 1) 1%, rgba(238, 53, 120, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#logo-preto {
+    padding: 0rem 5rem;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #f9f9f9;
+}
+
+footer {
+    display: flex;
+    background-color: #0C0C0C;
+    padding-bottom: 1rem;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.social-media {
+    align-items: flex-end;
+    padding-right: 5rem;
+}
+
+.social-media img{
+    width: 1.8rem;
+}

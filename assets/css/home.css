@@ -1,0 +1,127 @@
+header {
+    position: relative;
+}
+
+.cabecalho {
+    padding: 1rem 5rem;
+    margin-top: 0, 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-options {
+    display:flex;
+    position:absolute;
+    padding-left: 60%;
+    justify-content: space-between;
+    align-content:flex-end;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.aside-style {
+    padding: 0rem 5rem;
+}
+
+.tag {
+    margin-top: auto;
+    background: #181818;
+    border-radius: 0px 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 8px;
+    width: 2rem;
+    height: auto;
+    color: rgba(255, 166, 52, 1);
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.avaliacao {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    gap: 1rem;
+}
+
+.estrelas input[type=radio] {
+    display: none;
+}
+
+.estrelas label i.fa:before {
+    content: '\f005';
+    color: #FFA634;
+}
+
+.estrelas input[type=radio]:checked~label i.fa:before {
+    color: #F9F9F9;
+}
+
+.tempo {
+    font-size: 1rem;
+}
+
+.sinopse {
+    font-size: 1rem;
+    line-height: 100%;
+    margin-right: 60%;
+}
+
+.film-title {
+    position: relative;
+    margin-top: 1rem;
+    font-size: 3.5rem;
+    line-height: 50%;
+}
+
+.botao-assistir {
+    position: absolute;
+    margin-top: 1rem;
+    width: 286px;
+    height: 56px;
+    background: #FFA634;
+    border-radius: 6px;
+    box-shadow: none;
+    font-size: 1.5rem;
+    align-content: center;
+    font-feature-settings: 'liga'off;
+    color: #181818;
+}
+
+.subtitle {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    text-decoration: underline 2px solid #FFA634;
+}
+
+.grid {
+   position: relative;
+    margin-top: 5rem;
+    padding: 0 5rem;
+    align-content: space-between;
+}
+
+
+.grid-filmes {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.poster {
+    width: 35vh;
+    justify-content: space-between;
+    mask-composite: linear-gradient(180deg, rgba(24, 24, 24, 0) 0%, rgba(24, 24, 24, 0.8) 80.79%);
+}
+
+.description {
+    display: block;
+    position: absolute;
+}
+
+.film-title2 {
+    font-size: 1.2rem;
+}
